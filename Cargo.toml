@@ -5,6 +5,8 @@ edition = "2021"
 
 [dependencies]
 actix-web = "4.0" # Actix web is a simple, pragmatic and extremely fast web framework for Rust.
+aws-config = "1.5.9"
+aws-sdk-s3 = "1.59.0"
 derive_more = "0.99" # Convenience macros to derive traits easily
 diesel = { version = "1.4", features = ["postgres", "uuidv07", "r2d2", "chrono"] } # A safe, extensible ORM and Query Builder for PostgreSQL, SQLite, and MySQL.
 dotenv = "0.15" # A dotenv implementation for Rust.
